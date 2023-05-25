@@ -1,0 +1,91 @@
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #d69d9d;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.container{
+  margin: 2rem auto;
+  width: 60rem;
+  min-height: 50%;
+  /* border: 2px solid black; */
+  display: flow-root;
+}
+.container .logo{
+  text-align: center;
+}
+.container .logo h1 {
+  padding-top: 1rem;
+  font-family: 'Molengo', sans-serif;
+}
+.jokeWrapper{
+  width:80%;
+  min-height:350px;
+  background-color: rgb(203, 129, 129);
+  border-radius: 10px;
+  margin-inline: auto;
+  margin-block: 5% ;
+}
+nav{
+  padding-block: .4rem;
+  padding-inline: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid rgb(38, 35, 35);
+}
+nav .others > * {
+  color: rgb(18, 17, 17);
+  padding-inline: .5rem;
+}
+.category{
+  margin: .5rem auto;
+  font-weight: 550;
+  background-color: rgb(192, 178, 178);
+  min-width: 25%;
+  max-width: 30%;
+  text-align: center;
+  padding: .3rem .5rem;
+  border-radius: 10px;
+}
+.main{
+  font-family: 'Molengo', sans-serif;
+  position: relative;
+  margin: 0 auto;
+  min-width: 85%;
+  max-width: 90%;
+  font-size: 1.3rem;
+  padding: 1rem .5rem;
+  font-weight: 550;
+  font-stretch: expanded;
+  background-color:rgb(193, 127, 127);
+  border-radius: 20px;
+}
+.clip{
+  opacity: .9;
+  cursor: pointer;
+  position: absolute;
+  top:-.4rem;
+  right: .5rem;
+}
+.myButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+button{
+  cursor: pointer;
+  border: 0;
+  border-radius: 10px;
+  outline: 0;
+  background: rgb(143, 103, 103);
+  padding: .3rem 2rem;
+}

@@ -5,16 +5,12 @@
 }
 body{
   background-color: #d69d9d;
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
 }
 
 .container{
   margin: 2rem auto;
-  width: 60rem;
+  width: 100%;
   min-height: 50%;
-  /* border: 2px solid black; */
   display: flow-root;
 }
 .container .logo{
@@ -49,7 +45,7 @@ nav .others > * {
   font-weight: 550;
   background-color: rgb(192, 178, 178);
   min-width: 25%;
-  max-width: 30%;
+  max-width: 60%;
   text-align: center;
   padding: .3rem .5rem;
   border-radius: 10px;
@@ -88,4 +84,17 @@ button{
   outline: 0;
   background: rgb(143, 103, 103);
   padding: .3rem 2rem;
+}
+
+@media screen and (max-width:650px){
+  .container .logo h1{
+    font-size: 1.5rem;
+  }
+  .container .logo h1 > span img {
+    width: 30px;
+    height:30px;
+  }
+  .material-symbols-outlined{
+    font-size: 1.2rem;
+  }
 }

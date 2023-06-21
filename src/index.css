@@ -5,6 +5,10 @@
 }
 body{
   background-color: #d69d9d;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .container{
@@ -96,5 +100,11 @@ button{
   }
   .material-symbols-outlined{
     font-size: 1.2rem;
+  }
+  .main{
+    font-size: 0.9rem;
+  }
+  .category{
+    font-size: 0.7rem;
   }
 }

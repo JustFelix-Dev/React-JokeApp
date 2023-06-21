@@ -91,6 +91,11 @@ button{
   padding: .3rem 2rem;
 }
 
+@media screen and (min-width:659px){
+  .container{
+    width: 60rem;
+  }
+}
 @media screen and (max-width:650px){
   .container .logo h1{
     font-size: 1.5rem;
